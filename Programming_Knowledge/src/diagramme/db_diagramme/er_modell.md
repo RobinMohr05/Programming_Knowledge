@@ -1,0 +1,1 @@
+Das Entity Relationship Modell (ER-Modell) 
