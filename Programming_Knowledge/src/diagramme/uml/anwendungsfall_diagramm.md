@@ -5,4 +5,5 @@ Man spricht daher häufig von einem sogenannten **Blackbox-Charakter**: Das Syst
 Das Diagramm dient vor allem der **Kommunikation zwischen zukünftigen Anwendern und Entwicklern**, um ein gemeinsames Verständnis der Systemanforderungen zu schaffen.  
 Durch die Visualisierung der Funktionalitäten können Missverständnisse frühzeitig erkannt und vermieden werden.  
 Use-Case-Diagramme entstehen typischerweise auf Basis der **Ergebnisse der Anforderungsanalyse** und unterstützen eine strukturierte Weiterentwicklung des Systems.
+
 ![[Pasted image 20250503042510.png]]
