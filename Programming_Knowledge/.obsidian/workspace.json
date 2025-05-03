@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/diagramme/db_diagramme/er_modell.md",
+                "file": "src/diagramme/uml/aktivitäts_diagramm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "er_modell"
+              "title": "aktivitäts_diagramm"
             }
           }
         ]
@@ -170,20 +170,27 @@
   },
   "active": "fd0035d5dee1c1f7",
   "lastOpenFiles": [
-    "knowledge_main.md",
-    "src/diagramme/db_diagramme/er_modell.md",
-    "src/diagramme/db_diagramme/logisches_modell.md",
+    "src/diagramme/db_diagramme/relationales_datenbank_modell.md",
     "src/diagramme/db_diagramme/db_diagramme_main.md",
-    "Untitled.canvas",
+    "src/diagramme/db_diagramme/er_modell.md",
+    "src/diagramme/uml/use_case_diagramm.md",
+    "src/diagramme/uml/aktivitäts_diagramm.md",
     "src/diagramme/diagramme_main.md",
+    "src/diagramme/db_diagramme/relationales_datenbankmodell_cheatsheet.svg",
+    "src/database/relational/relationale_datenbank_main.md",
+    "src/diagramme/db_diagramme/ER_Modell_Cheatsheet.svg",
+    "src/database/database_main.md",
+    "src/database/nicht_relational/nicht_relationale_datenbank_main.md",
+    "src/database/nicht_relational",
+    "src/database/relational",
+    "knowledge_main.md",
+    "Untitled.canvas",
     "src/diagramme/db_diagramme",
     "src/diagramme/uml/uml_main.md",
     "src/diagramme/diag.md",
     "src/diagramme/uml/klassen_diagramm.md",
-    "src/diagramme/uml/aktivitäts_diagramm.md",
     "src/diagramme/uml/zustands_diagramm.md",
     "src/diagramme/uml/sequenz_diagramm.md",
-    "src/diagramme/uml/use_case_diagramm.md",
     "create a link.md",
     "Welcome.md",
     "src/diagramme/uml",
@@ -195,8 +202,6 @@
     "src/frontend",
     "src/database",
     "src/backend/backend_main.md",
-    "src/backend/python/Untitled 1.md",
-    "src/backend/python",
-    "src/backend/other"
+    "src/backend/python/Untitled 1.md"
   ]
 }

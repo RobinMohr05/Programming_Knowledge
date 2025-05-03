@@ -1,2 +1,2 @@
 - [[er_modell]]
-- [[logisches_modell]]
+- [[relationales_datenbank_modell]]
