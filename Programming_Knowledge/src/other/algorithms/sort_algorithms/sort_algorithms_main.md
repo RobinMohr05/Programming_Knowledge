@@ -1,4 +1,3 @@
-[[bubble_sort|Bubble Sort]]
 Sortieralgorithmen sind Verfahren in der Informatik, mit denen Elemente (meist Zahlen oder Zeichenketten) in eine bestimmte Reihenfolge gebracht werden, typischerweise aufsteigend oder absteigend.
 
 Zu den wichtigsten Sortieralgorithmen gehören:

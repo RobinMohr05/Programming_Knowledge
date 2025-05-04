@@ -6,13 +6,13 @@
     
 - Statt Tabellen mit festen Schemata nutzen sie **dynamischere Strukturen** wie:
     
-    - 🔸 **Dokumente** (z. B. JSON) → _[[mongo_DB|MongoDB]]_
+    - **Dokumente** (z. B. JSON) → _[[mongo_DB|MongoDB]]_
         
-    - 🔸 **Key-Value-Paare** → _Redis_
+    - **Key-Value-Paare** → _Redis_
         
-    - 🔸 **Spaltenorientierte Datenbanken** → _Cassandra_
+    - **Spaltenorientierte Datenbanken** → _Cassandra_
         
-    - 🔸 **Graphenmodelle** → _Neo4j_
+    - **Graphenmodelle** → _Neo4j_
         
 
 ### Merkmale:
