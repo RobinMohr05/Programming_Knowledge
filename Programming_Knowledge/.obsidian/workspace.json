@@ -11,29 +11,30 @@
             "id": "1eedd022175503ec",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20250504153832.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250504153832"
+            }
+          },
+          {
+            "id": "63ec6fd7bd022a01",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge_main.md",
+                "file": "src/other/algorithms/search_algorithms/binary_search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "knowledge_main"
-            }
-          },
-          {
-            "id": "8c6072a85c1b2732",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "images/BigPicture-AP2-FIAE.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "BigPicture-AP2-FIAE"
+              "title": "binary_search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,49 +181,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1eedd022175503ec",
+  "active": "63ec6fd7bd022a01",
   "lastOpenFiles": [
+    "src/other/algorithms/search_algorithms/linear_search.md",
+    "src/other/algorithms/search_algorithms/search_algorithms_main.md",
+    "src/other/algorithms/algorithms_main.md",
+    "src/other/algorithms/sort_algorithms/sort_algorithms_main.md",
+    "src/other/algorithms/sort_algorithms/bubble_sort.md",
+    "src/other/other_main.md",
+    "src/other/runtimes/runtimes_main.md",
+    "src/other/runtimes/linear.md",
+    "images/bubblesort_ad.png",
+    "images/Pasted image 20250504153832.png",
+    "Pasted image 20250504160009.png",
+    "src/other/algorithms/search_algorithms/binary_search.md",
+    "src/diagrams/database_diagrams/db_diagrams_main.md",
+    "src/diagrams/database_diagrams/er_modell.md",
+    "src/diagrams/database_diagrams/relationales_datenbank_modell.md",
+    "images/Pasted image 20250504152620.png",
+    "images/Pasted image 20250504152214.png",
+    "src/diagrams/uml/activity_diagramm.md",
+    "images/diagrams/relationales_datenbankmodell_cheatsheet.svg",
+    "images/diagrams/ER_Modell_Cheatsheet.svg",
     "images/Pasted image 20250503043757.png",
     "images/Pasted image 20250503043401.png",
     "images/Pasted image 20250503042510.png",
-    "images/cheatsheet_class_diagram 1.pdf",
-    "images/BigPicture-AP2-FIAE.pdf",
     "images/cheatsheet_class_diagram.pdf",
-    "images/diagrams/relationales_datenbankmodell_cheatsheet.svg",
-    "images/diagrams/ER_Modell_Cheatsheet.svg",
-    "src/infrastructure/container.md",
-    "src/infrastructure/infrastructure_main.md",
-    "src/other/other_main.md",
-    "src/other/pattern/structural/decorator.md",
-    "src/other/pattern/behavioral/observer.md",
-    "src/other/algorithms/sort_algorithm.md",
-    "src/other/algorithms/search_algorithms.md",
-    "src/other/algorithms/algorithms_main.md",
-    "knowledge_main.md",
-    "src/diagrams/diagrams_main.md",
-    "src/diagrams/database_diagrams/db_diagrams_main.md",
-    "src/other/pattern/pattern_main.md",
-    "src/other/pattern/other/mvc.md",
-    "src/database/relational/sql.md",
-    "src/diagrams/database_diagrams/relationales_datenbank_modell.md",
-    "src/database/relational/My_SQL.md",
-    "src/database/relational/relational_database_main.md",
-    "src/database/database_main.md",
+    "images/cheatsheet_class_diagram 1.pdf",
     "src/diagrams/uml/uml_main.md",
-    "src/diagrams/uml/aktivitäts_diagramm.md",
     "src/diagrams/uml/sequenz_diagramm.md",
     "src/diagrams/uml/anwendungsfall_diagramm.md",
-    "src/diagrams/uml/klassen_diagramm.md",
-    "src/database/non_relational/non_relational_database_main.md",
-    "src/database/other/database_normalization.md",
-    "Pasted image 20250504021853.png",
+    "src/diagrams/uml/zustands_diagramm.md",
+    "src/diagrams/diagrams_main.md",
+    "src/backend/python/python_main.md",
+    "src/other/other/runtimes.md",
+    "src/other/runtimes",
+    "src/frontend/frontend_main.md",
+    "src/other/other",
+    "src/other/algorithms/sort_algorithms",
+    "src/other/algorithms/search_algorithms",
+    "knowledge_main.md",
+    "src/database/relational/My_SQL.md",
+    "src/database/relational/sql.md",
+    "src/database/relational/relational_database_main.md",
+    "images/BigPicture-AP2-FIAE.pdf",
     "src/other/architecture/Untitled",
     "src/other/pattern/other",
     "src/other/pattern/behavioral",
-    "src/other/pattern/structural",
-    "src/other/pattern/creational",
-    "src/other/algorithms",
-    "src/database/other",
     "Untitled.canvas"
   ]
 }

@@ -4,5 +4,5 @@ Unified Modeling Language kurt auch UML, ist eine grafische Sprache, mit der man
 - [[klassen_diagramm|Klassendiagramm]]
 - [[anwendungsfall_diagramm|Anwendungsfalldiagramm]]
 - [[sequenz_diagramm|Sequenzdiagramm]]
-- [[aktivitäts_diagramm|Aktivitätsdiagramm]]
+- [[activity_diagramm|Aktivitätsdiagramm]]
 - [[zustands_diagramm|Zustandsdiagramm]]
