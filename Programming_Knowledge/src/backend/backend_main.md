@@ -1,2 +1,1 @@
-Programmiersprachen:
 - [[python_main]]

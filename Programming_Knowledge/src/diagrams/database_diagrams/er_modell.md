@@ -1,4 +1,4 @@
-Das Entity Relationship Modell (ER-Modell) ist ein Modell zum Darstellen von Datenstrukturen in einer [[relationale_datenbank_main|Relationalen Datenbank]]. Es zeigt an wie Informationen in einer Datenbank gespeichert sind und wie diese zueinander in einer Beziehung stehen.
+Das Entity Relationship Modell (ER-Modell) ist ein Modell zum Darstellen von Datenstrukturen in einer [[relational_database_main|Relationalen Datenbank]]. Es zeigt an wie Informationen in einer Datenbank gespeichert sind und wie diese zueinander in einer Beziehung stehen.
 ![[ER_Modell_Cheatsheet.svg]]
 **Entität**  
 Eine Entität ist ein eindeutig identifizierbares Objekt aus der realen Welt, wie Produkte, Bestellungen oder Kunden. Es gibt zwei Arten:
