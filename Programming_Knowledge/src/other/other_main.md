@@ -1,2 +1,2 @@
-- [[pattern_main]]
+- [[design_pattern_main]]
 - [[algorithms_main]]

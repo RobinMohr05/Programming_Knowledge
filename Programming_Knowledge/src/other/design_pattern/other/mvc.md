@@ -1,3 +1,13 @@
+### Entwurfsmuster in Smalltalk – MVC
+Das MVC-Paradigma wird durch 3 Objekte umgesetzt. Das Model-Objekt stellt das Anwendungsobjekt dar, das View-Objekt seine Bildschirmpräsentation und das Controller-Objekt bestimmt die Möglichkeiten, mit denen die Benutzungsschnittstelle auf Benutzereingaben reagieren kann. In den Zeiten vor MVC tendierten Entwürfe von Benutzungsschnittstellen dazu, diese Objekte in einem einzigen Objekt zusammenzuführen. Das MVC-Pattern entkoppelte sie, die Flexibilität und Wiederverwendbarkeit zu erhöhen.
+MVC ist eher ein architektonisches Muster, aber nicht für eine komplette Anwendung. MVC bezieht sich hauptsächlich auf die Benutzeroberfläche / Interaktionsschicht einer Anwendung. Sie benötigen immer noch eine Geschäftslogikschicht, vielleicht eine Dienstschicht und eine Datenzugriffsschicht.
+MVC-Entwurfskomponenten
+• Das Modell enthält nur die reinen Anwendungsdaten, es enthält keine Logik, die beschreibt, wie die Daten einem Benutzer präsentiert werden sollen.
+• Die Ansicht stellt dem Benutzer die Daten des Modells dar. Der View weiß, wie er auf die Daten des Models zugreifen kann, aber er weiß nicht, was diese Daten bedeuten oder wie der Benutzer sie manipulieren kann.
+• Der Controller steht zwischen der Ansicht und dem Modell. Er hört auf Ereignisse, die von der Ansicht (oder einer anderen externen Quelle) ausgelöst werden, und führt die entsprechende Reaktion auf diese Ereignisse aus. In den meisten Fällen besteht die Reaktion darin, eine Methode des Modells aufzurufen. Da der View und das Model über einen Benachrichtigungsmechanismus verbunden sind, wird das Ergebnis dieser Aktion automatisch in der View übernommen.
+
+![[Pasted image 20250505020724.png]]
+
 
 # **KOMPLETT CHATGPT GENERIERT**
 

@@ -1,0 +1,2 @@
+SOAP Simple Object Access Protocol
+ist ein Standardprotokoll, das zunächst entwickelt wurde, damit Anwendungen, die mit verschiedenen Sprachen und auf verschiedenen Plattformen erstellt wurden, miteinander kommunizieren konnten. Da es sich um ein Protokoll handelt, umfasst es integrierte Regeln, die Komplexität und Overhead erhöhen, was zu längeren Seitenladezeiten führen kann.

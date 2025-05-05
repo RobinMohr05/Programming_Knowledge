@@ -1,3 +1,120 @@
+## **Factory-Method-Pattern**
+
+### Klassifizierung:**
+[[creational_pattern_main|Erzeugungsmuster (Creational Pattern)]]
+
+---
+
+### **Zweck:**
+
+Das Factory-Method-Pattern kapselt die Objekterstellung. Dabei wird die Verantwortung zur Instanziierung von Objekten an Unterklassen delegiert, ohne dass der aufrufende Code die genaue Klasse kennen muss.
+
+---
+
+### **Anwendbarkeit:**
+
+Verwende das Factory-Method-Pattern, wenn:
+
+- Eine Klasse die Instanziierung ihrer Objekte delegieren soll.
+    
+- Der Code offen für Erweiterung, aber geschlossen für Modifikation sein soll (Open/Closed-Prinzip).
+    
+- Objekte einer gemeinsamen Schnittstelle erzeugt werden sollen, jedoch mit verschiedenen konkreten Implementierungen.
+    
+
+---
+
+### **Struktur (UML-Komponenten):**
+
+- **Product:** Abstrakte Oberklasse oder Interface für Produkte.
+    
+- **ConcreteProduct:** Konkrete Implementierung des Produkts.
+    
+- **Creator:** Abstrakte Klasse mit der Factory-Methode.
+    
+- **ConcreteCreator:** Implementiert die Factory-Methode und erzeugt konkrete Produkte.
+    
+
+---
+
+### **Was muss beachtet werden?**
+
+- Die Struktur sollte sorgfältig geplant werden.
+    
+- Das Pattern ist nur sinnvoll, wenn sich Produktklassen unterscheiden und leicht erweiterbar sein sollen.
+    
+- Übermäßiger Einsatz kann zu unnötiger Komplexität führen.
+    
+
+---
+
+### **Vor- und Nachteile**
+
+| Vorteil                     | Nachteil                              |
+| --------------------------- | ------------------------------------- |
+| Fördert Modularität         | Höhere Komplexität                    |
+| Erleichtert Erweiterbarkeit | Mehr Klassen nötig                    |
+| Unterstützt Unit Testing    | Schwierig zu verstehen für Einsteiger |
+
+---
+
+### **Beispiel in Python**
+
+```python
+from abc import ABC, abstractmethod
+
+# Product
+class Button(ABC):
+    @abstractmethod
+    def render(self) -> str:
+        pass
+
+# Concrete Products
+class WindowsButton(Button):
+    def render(self) -> str:
+        return "Rendering a Windows Button"
+
+class MacButton(Button):
+    def render(self) -> str:
+        return "Rendering a Mac Button"
+
+# Creator
+class Dialog(ABC):
+    def render_dialog(self):
+        button = self.create_button()
+        return button.render()
+
+    @abstractmethod
+    def create_button(self) -> Button:
+        pass
+
+# Concrete Creators
+class WindowsDialog(Dialog):
+    def create_button(self) -> Button:
+        return WindowsButton()
+
+class MacDialog(Dialog):
+    def create_button(self) -> Button:
+        return MacButton()
+
+# Anwendung
+def client_code(dialog: Dialog):
+    print(dialog.render_dialog())
+
+# Test
+if __name__ == "__main__":
+    os_type = "Windows"  # Eingabe könnte z. B. vom Betriebssystem kommen
+
+    if os_type == "Windows":
+        dialog = WindowsDialog()
+    else:
+        dialog = MacDialog()
+
+    client_code(dialog)
+
+```
+
+
 
 # **KOMPLETT CHATGPT GENERIERT**
 
