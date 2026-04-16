@@ -1,24 +1,38 @@
 {
   "main": {
-    "id": "e7ec32f295372a8d",
+    "id": "158874cebada007e",
     "type": "split",
     "children": [
       {
-        "id": "4e5783195ca0bedf",
+        "id": "52be7317b09ba1c7",
         "type": "tabs",
         "children": [
           {
-            "id": "794a52762eb27e5c",
+            "id": "1eedd022175503ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming_Knowledge/src/other/algorithms/sort_algorithms/bubble_sort.md",
+                "file": "src/other/design_pattern/creational/creational_pattern_main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bubble_sort"
+              "title": "creational_pattern_main"
+            }
+          },
+          {
+            "id": "63ec6fd7bd022a01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/backend/python/python_main.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "python_main"
             }
           }
         ]
@@ -27,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "05a9f2ce7914c310",
+    "id": "8d2385bf6dc5e0a5",
     "type": "split",
     "children": [
       {
-        "id": "414a8c5f263ad0d8",
+        "id": "25246680da638d1d",
         "type": "tabs",
         "children": [
           {
-            "id": "837cb89bc59bde17",
+            "id": "4b945fd0a43c579c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +62,7 @@
             }
           },
           {
-            "id": "c8b36d1c74729b77",
+            "id": "cf19065c94e5d17c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +79,7 @@
             }
           },
           {
-            "id": "665942f94308e982",
+            "id": "2c79edf21f9aacc1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +92,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "9873d7562d9a90d9",
+    "id": "b3f7e1edd8e1d797",
     "type": "split",
     "children": [
       {
-        "id": "3897548e4bb00d0d",
+        "id": "8e4088f72c395984",
         "type": "tabs",
         "children": [
           {
-            "id": "8a6110d8e776f939",
+            "id": "d7791ebfdc976e9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming_Knowledge/src/other/algorithms/sort_algorithms/bubble_sort.md",
+                "file": "src/diagramme/db_diagramme/er_modell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +118,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bubble_sort"
+              "title": "Backlinks for er_modell"
             }
           },
           {
-            "id": "e119942cb2d3c0c8",
+            "id": "29f109b94f80f4ae",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming_Knowledge/images/Pasted image 20250505020724.png",
+                "file": "src/diagramme/db_diagramme/er_modell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20250505020724"
+              "title": "Outgoing links from er_modell"
             }
           },
           {
-            "id": "a5c43f9c876390d8",
+            "id": "0a0f7300cbcdc552",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,39 +151,26 @@
             }
           },
           {
-            "id": "61c3f839a5f9cd58",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "f4805b53499d4492",
+            "id": "8294b495d9d9dced",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming_Knowledge/images/Pasted image 20250505020724.png",
+                "file": "src/diagramme/db_diagramme/er_modell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250505020724"
+              "title": "Outline of er_modell"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,42 +179,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "794a52762eb27e5c",
+  "active": "1eedd022175503ec",
   "lastOpenFiles": [
-    "Programming_Knowledge/src/other/algorithms/sort_algorithms/sort_algorithms_main.md",
-    "Untitled 1.base",
-    "Programming_Knowledge/knowledge_main.md",
-    "Programming_Knowledge/src/other/algorithms/algorithms_main.md",
-    "Programming_Knowledge/src/other/algorithms/search_algorithms/search_algorithms_main.md",
-    "Programming_Knowledge/src/other/algorithms/search_algorithms/binary_search.md",
-    "Programming_Knowledge/src/other/algorithms/search_algorithms/linear_search.md",
-    "Programming_Knowledge/src/other/algorithms/sort_algorithms/bubble_sort.md",
-    "Programming_Knowledge/src/other/architecture/api/http_status_codes.md",
-    "Programming_Knowledge/src/other/architecture/api/api_main.md",
-    "Programming_Knowledge/src/other/architecture/architecture_main.md",
-    "Programming_Knowledge/src/other/runtimes/runtimes_main.md",
-    "Programming_Knowledge/src/other/design_pattern/design_pattern_main.md",
-    "Programming_Knowledge/src/other/design_pattern/structural/decorator.md",
-    "Programming_Knowledge/src/TecAlliance/idp/IDP_main.md",
-    "Programming_Knowledge/src/TecAlliance/idp/IDP_IN (DSA).md",
-    "Programming_Knowledge/src/other/other_main.md",
-    "Programming_Knowledge/src/other/runtimes/linear.md",
-    "Programming_Knowledge/src/infrastructure/container.md",
-    "Programming_Knowledge/src/infrastructure/infrastructure_main.md",
-    "Programming_Knowledge/src/diagrams/diagrams_main.md",
-    "Programming_Knowledge/src/database/database_main.md",
-    "Programming_Knowledge/src/database/relational/sql.md",
-    "Programming_Knowledge/src/database/relational/relational_database_main.md",
-    "Programming_Knowledge/src/database/relational/My_SQL.md",
-    "Programming_Knowledge/src/database/non_relational/non_relational_database_main.md",
-    "Pasted image 20260311110754.png",
-    "Programming_Knowledge/src/TecAlliance/idp",
-    "Untitled.base",
-    "Programming_Knowledge/images/Pasted image 20250505020724.png",
-    "Programming_Knowledge/src/TecAlliance"
+    "src/other/design_pattern/creational/factory.md",
+    "src/other/design_pattern/other/mvc.md",
+    "src/other/design_pattern/design_pattern_main.md",
+    "src/other/design_pattern/structural/decorator.md",
+    "src/other/design_pattern/creational/creational_pattern_main.md",
+    "Pasted image 20250505020724.png",
+    "src/other/architecture/api/api_main.md",
+    "src/other/architecture/api/http_status_codes.md",
+    "src/other/architecture/api/soap.md",
+    "src/other/architecture/api/rest.md",
+    "src/other/architecture/architecture_main.md",
+    "src/database/other/data/json.md",
+    "src/database/other/data/data_format.md",
+    "src/database/other/data",
+    "src/database/relational/sql.md",
+    "src/other/design_pattern/behavioral/observer.md",
+    "src/other/architecture/api",
+    "images/BigPicture-AP2-FIAE.pdf",
+    "src/database/relational/My_SQL.md",
+    "src/database/relational/relational_database_main.md",
+    "src/database/database_main.md",
+    "knowledge_main.md",
+    "src/other/other_main.md",
+    "images/bubblesort_ad.png",
+    "src/other/algorithms/algorithms_main.md",
+    "src/backend/python/python_main.md",
+    "images/Pasted image 20250504153832.png",
+    "src/other/algorithms/sort_algorithms/sort_algorithms_main.md",
+    "src/other/algorithms/sort_algorithms/bubble_sort.md",
+    "src/other/algorithms/search_algorithms/binary_search.md",
+    "src/other/algorithms/search_algorithms/search_algorithms_main.md",
+    "src/other/algorithms/search_algorithms/linear_search.md",
+    "Pasted image 20250504160009.png",
+    "images/Pasted image 20250504152620.png",
+    "images/Pasted image 20250504152214.png",
+    "images/diagrams/relationales_datenbankmodell_cheatsheet.svg",
+    "images/diagrams/ER_Modell_Cheatsheet.svg",
+    "images/Pasted image 20250503043757.png",
+    "images/Pasted image 20250503043401.png",
+    "images/cheatsheet_class_diagram.pdf",
+    "images/cheatsheet_class_diagram 1.pdf",
+    "src/other/runtimes",
+    "src/other/other",
+    "src/other/algorithms/sort_algorithms",
+    "src/other/algorithms/search_algorithms",
+    "src/other/design_pattern/other",
+    "Untitled.canvas"
   ]
 }
